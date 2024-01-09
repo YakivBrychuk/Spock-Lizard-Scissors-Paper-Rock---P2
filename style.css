@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* responsive images */
+img {
+    max-width: 100%;
+}
+
+.credits {
+    text-align: center;
+    font-size: 11px;
+}
+.credits a {
+    color: green;
+}
+
+/* horizontal flex container */
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* vertical flex container */
+
+.flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+}
