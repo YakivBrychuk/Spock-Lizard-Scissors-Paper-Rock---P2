@@ -1,18 +1,50 @@
 * {
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
 
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 45px 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 696;
+    color: hsl(0, 0%, 10%);
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: hsl(0, 0%, 90%);
+
+}
+
+.main-container {
+    align-items: center;
+}
 /* responsive images */
 img {
     max-width: 100%;
 }
 
+button:focus, button:active {
+    outline: 0;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
 .credits {
     text-align: center;
     font-size: 11px;
 }
 .credits a {
-    color: green;
+    color: white;
 }
 
 /* horizontal flex container */
@@ -31,3 +63,68 @@ img {
 .hidden {
     display: none;
 }
+
+/* Title block */
+
+.title-block {
+    justify-content: space-around;
+    width: 100%;
+    max-width: ;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    padding: 17px 22px 16px 31px;
+    margin: 0 0 47px;
+}
+
+.title-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px 0 0;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.user {
+    justify-content: space-around;
+    width: 80%;
+    max-width: 700px;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    padding: 17px 22px 16px 31px;
+    margin: 0 0 47px;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.user-name {
+    font-size: 20px;
+    color:  hsl(0, 0%, 90%);
+    letter-spacing: 1px;
+    margin: 0 0 2px;
+}
+
+.score {
+    background: hsl(0, 0%, 10%);
+    width: 150px;
+    border-radius: 6px;
+    align-items: center;
+    height: 115px;
+    padding: 14px 0 0;
+    border: 2px solid whitesmoke;
+}
+
+.score-name {
+    color: hsl(0, 0%, 90%); 
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 2px;
+    letter-spacing: 1px;
+}
+
+.score-number {
+    color: hsl(0, 0%, 90%);
+    font-size: 62px;
+    font-weight: 700;
+    line-height: .8;
+    
+}
+
