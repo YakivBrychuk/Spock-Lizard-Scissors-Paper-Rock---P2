@@ -8,10 +8,10 @@
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 <body>
-    <div class="main-container">
-        
+    <div class="main-container flx-column">
+
         <!-- Title-block -->
-        <section class="title-block">
+        <section class="title-block flx-row">
             <ul>
                 <li>Rock</li>
                 <li>Paper</li>
@@ -19,10 +19,10 @@
                 <li>Lizard</li>
                 <li>Spock</li>
             </ul>
-            <div class="user">
+            <div class="user flx-column">
                 <div class="user-name">User</div>
             </div>
-            <div class="score">
+            <div class="score flx-column">
                 <div class="score-name">Score</div>
                 <div class="score-number">0</div>
         </section>
@@ -36,16 +36,16 @@
             <div class="game-cards spock"><img src="/assets/images/hand-spock-svgrepo-com.svg" alt=""></div>
         </section>
 
-        <div class="chosen card hidden">
-            <div class="chosen card">
+        <div class="chosen card flx-row hidden">
+            <div class="chosen card flx-column">
                 <p>You have choosen</p>
-                <div class="user-choice"></div>
+                <div class="user-chosen"></div>
             </div>
             <div class="result">
                 <div class="title">You Won</div>
                 <button>Play again</button>
             </div>
-            <div class="chosen card">
+            <div class="chosen card flx-column">
                 <p>Computer choosen</p>
                 <div class="computer-choice"></div>
             </div>
