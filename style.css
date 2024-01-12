@@ -230,6 +230,45 @@ left: 115px;
 transform: translate(-50%, -50%);
 }
 
+
+/* Starting Game */
+.chosen-main {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.chosen-main p {
+    font-size: 22px;
+    line-height: 1;
+    margin: 0 0 68px;
+}
+
+.chosen-main .game-cards {
+    height: 300px;
+    width: 299px;
+    position: static;
+}
+
+.chosen-main .game-cards::before {
+    height: 222px;
+    width: 228px;
+}
+
+.chosen-main .game-cards img {
+    width: 100px;
+}
+
+.chosen {
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+/* 
+
 .credits {
     position: absolute;
     left: 0;
