@@ -1,13 +1,15 @@
 function game() {
     const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock']
-    
+    //Variables to store the user and computer choices 
     let userchoice = '';
     let computerChoice = '';
+    //Selecting the DOM elements for user choice and choosen option to display 
     const userChoiceElement = document.querySelector('.user-choice');
     const choosenElement = document.querySelector('.choosen-main');
+    // Initialize current score
+    let currentScore = 0;
 
-
-    // Add an event listener for the window 'load' event to ensure that the DOM is fully loaded before executing the script.
+    // Add an event listeners for the window 'load' event to ensure that the DOM is fully loaded before executing the script.
     window.addEventListener('load', () => {
 
         
@@ -26,9 +28,11 @@ function game() {
         })
 
     })
-    
+    //Function to handle the game start
     function gameStart () {
         calculateWinner(userchoice, computerChoice);
+        userChoiceElement.classList.add('hidden');
+        choosenElement.classList.remove('hidden');
 
     }
 
@@ -38,16 +42,16 @@ function game() {
             return target.parentElement.classList[1];
         }
         return target.classList[1];
-
     }
+
     // Function to get the computer choice
     function getchoicecomputer() {
         return actions[Math.floor(Math.random() * actions.length)];
     }
+
     // Function to calculate the winner
     function calculateWinner(user, comp) {
         let result = getwinner(user, comp);
-        console.log("Result:", result);
         switch (result) {
             case 'user':
                 resultTitleElement.innerText = 'You win';
@@ -64,7 +68,11 @@ function game() {
                 
         }
     }
-    // Function to calculate the win 
+    
+
+
+    // Function to deternine the winner
+
     function getwinner(userChoice, computerChoice) {
         if (userChoice === computerChoice) {
             return 'Draw';
@@ -100,7 +108,24 @@ function game() {
             return 'user';
         }
     }
+    
+    //function to calculate & update the score
+    function calculateScore(roundResult) {
+        currentScore += roundResult;
+        updateScoreBoard();
+    }
 
+    //function to update the score board UI
+    function updateScoreBoard() {
+        scoreElement.innerText = currentScore;
+        window.localStorage.setItem('gameScore', currentScore);
+    }
+
+    //function to retrieve the score from local storage
+    function retrieveScoreFromLocalStorage() {
+        const score = +window.localStorage.getItem('gameScore') || 0;
+        currentScore = score;
+        }
 
     
 

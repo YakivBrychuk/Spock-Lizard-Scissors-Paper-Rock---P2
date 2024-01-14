@@ -53,11 +53,10 @@ button {
     flex-flow: column nowrap;
 }
 
-/*
+
 .hidden {
     display: none;
 }
-*/
 
 /* Title block */
 
@@ -137,7 +136,7 @@ button {
 }
 
 .user-choice {
-    background: center /contain no-repeat url();
+    background: center /contain
     background-size: 350px;
     width: 100%;
     max-width: 700px;
