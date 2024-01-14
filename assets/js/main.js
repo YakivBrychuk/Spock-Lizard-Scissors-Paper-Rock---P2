@@ -6,6 +6,11 @@ function game() {
     //Selecting the DOM elements for user choice and choosen option to display 
     const userChoiceElement = document.querySelector('.user-choice');
     const choosenElement = document.querySelector('.choosen-main');
+    const userChosenElement = choosenElement.querySelector('.user-chosen');
+    const computerChosenElement = choosenElement.querySelector('.computer-choice');
+    const resultTitleElement = document.querySelector('.result-title-selector');
+
+    let scoreElement = document.querySelector('.score-number');
     // Initialize current score
     let currentScore = 0;
 
@@ -34,6 +39,15 @@ function game() {
         userChoiceElement.classList.add('hidden');
         choosenElement.classList.remove('hidden');
 
+    // Set the user and computer choices in the result section
+        userChosenElement.innerHTML = getImageElement(userchoice);
+        computerChosenElement.innerHTML = getImageElement(computerChoice);
+
+    }
+
+    //function to set the user choice and computer choice in result section
+    function getImageElement(choice) {
+        return `<img src="assets/images/icon-${choice}.svg" alt="${choice}" />`;
     }
 
     // Function to get the user choice
@@ -108,7 +122,7 @@ function game() {
             return 'user';
         }
     }
-    
+
     //function to calculate & update the score
     function calculateScore(roundResult) {
         currentScore += roundResult;
