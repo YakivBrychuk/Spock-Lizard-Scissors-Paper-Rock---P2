@@ -1,23 +1,38 @@
-// Add an event listener for the window 'load' event to ensure that the DOM is fully loaded before executing the script.
-window.addEventListener('load', () =>{
+function game() {
+    const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+    
+    // Add an event listener for the window 'load' event to ensure that the DOM is fully loaded before executing the script.
+    window.addEventListener('load', () => {
 
-    document.querySelectorAll('.user-choice .game-cards').forEach (card => {
-        // Adding event listener to the game cards
-        card.addEventListener('click', (ev) => {
-            // Getting the user choice
-            user-choice = getUserChoice(ev);
+        let userchoice = '';
+
+        document.querySelectorAll('.user-choice .game-cards').forEach (card => {
+            // Adding event listener to the game cards
+            card.addEventListener('click', (ev) => {
+                // Getting the user choice
+                userchoice = getuserchoice(ev.target);
+        console.log(userchoice);
+            
             gameStart();
-    });
-})
+        });
+    })
 
-function gameStart () {
+    function gameStart () {
 
-}
-// Function to get the user choice
-function getuserchoice (element) {
-    if (element.nodeName === 'IMG') {
-        return element.parentElement.classList[1];
     }
-    return element.classList[1];
 
+    // Function to get the user choice
+    function getuserchoice (target) {
+        if (target.nodeName === 'IMG') {
+            return target.parentElement.classList[1];
+        }
+        return target.classList[1];
+
+    }
+
+    function getchoicecomputer() {
+        return actions[Math.floor(Math.random() * actions.length)];
+    }
+
+});
 }
