@@ -161,6 +161,31 @@ function game() {
         choosenElement.classList.add('hidden');
     }
 
+    //modal
+    const modal = document.querySelector('.modal');
+    const rulesBtn = document.querySelector('.rules-btn');
+    const closeModal = document.querySelector('.close-img');
+    const modalBg = document.querySelector('.modal-behind');
+
+    rulesBtn.addEventListener('click', () => {
+        modal.classList.add('active');
+        modalBg.classList.add('active');
+    });
+
+    closeModal.addEventListener('click', () => {
+        modal.classList.remove('active');
+        modalBg.classList.remove('active');
+    });
+
+    modalBg.addEventListener('click', (ev) => {
+        if (ev.target === modalBg) {
+            modal.classList.remove('active');
+            modalBg.classList.remove('active');
+        }
+        
+    });
+
+
     
 
 }
