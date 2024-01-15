@@ -5,10 +5,13 @@ function game() {
     let computerChoice = '';
     //Selecting the DOM elements for user choice and choosen option to display 
     const userChoiceElement = document.querySelector('.user-choice');
-    const choosenElement = document.querySelector('.choosen-main');
+    const choosenElement = document.querySelector('.chosen-main');
     const userChosenElement = choosenElement.querySelector('.user-chosen');
     const computerChosenElement = choosenElement.querySelector('.computer-choice');
-    const resultTitleElement = document.querySelector('.result-title-selector');
+    const resultElement = choosenElement.querySelector('.result');
+    const resultTitleElement = resultElement.querySelector('.title');
+    
+
 
     let scoreElement = document.querySelector('.score-number');
     // Initialize current score
@@ -16,8 +19,8 @@ function game() {
 
     // Add an event listeners for the window 'load' event to ensure that the DOM is fully loaded before executing the script.
     window.addEventListener('load', () => {
-
-        
+        // Retrieve the score from local storage
+        retrieveScoreFromLocalStorage();
 
         document.querySelectorAll('.user-choice .game-cards').forEach (card => {
             // Adding event listener to the game cards
@@ -25,12 +28,13 @@ function game() {
                 // Getting the user choice
                 userchoice = getuserchoice(ev.target);
                 // Getting the computer choice
-                computerChoice = getchoicecomputer();
-        
-            
+                computerChoice = getchoicecomputer();   
+
                 gameStart();
             })
         })
+
+        resultElement.querySelector('button').addEventListener('click', tryAgain);
 
     })
     //Function to handle the game start
@@ -78,13 +82,10 @@ function game() {
             case 'Draw':
                 resultTitleElement.innerText = 'Tie';
                 // No score change on draw
-                break;
-                
+                break;     
         }
     }
     
-
-
     // Function to deternine the winner
 
     function getwinner(userChoice, computerChoice) {
@@ -140,6 +141,12 @@ function game() {
         const score = +window.localStorage.getItem('gameScore') || 0;
         currentScore = score;
         }
+    
+    //function to try again
+    function tryAgain() {
+        userChoiceElement.classList.remove('hidden');
+        choosenElement.classList.add('hidden');
+    }
 
     
 
