@@ -49,9 +49,22 @@ function game() {
 
     }
 
-    //function to set the user choice and computer choice in result section
+    //function to show the user choice and computer choice in result section
     function getImageElement(choice) {
-        return `<img src="assets/images/icon-${choice}.svg" alt="${choice}" />`;
+        // Create the outer div with the 'game-cards' class and the specific choice class (e.g., 'rock')
+        let gameCardDiv = document.createElement('div');
+        gameCardDiv.className = `game-cards ${choice}`;
+    
+        // Create the img element
+        let imgElement = document.createElement('img');
+        imgElement.src = `/assets/images/${choice}-svgrepo-com.svg`;
+        imgElement.alt = choice;
+    
+        // Append the img to the gameCardDiv
+        gameCardDiv.appendChild(imgElement);
+    
+        // Return the outer div's HTML
+        return gameCardDiv.outerHTML;
     }
 
     // Function to get the user choice
