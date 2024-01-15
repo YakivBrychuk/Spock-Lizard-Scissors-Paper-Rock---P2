@@ -1,5 +1,5 @@
 function game() {
-    const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+    const actions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     //Variables to store the user and computer choices 
     let userchoice = '';
     let computerChoice = '';
@@ -31,12 +31,12 @@ function game() {
                 computerChoice = getchoicecomputer();   
 
                 gameStart();
-            })
-        })
+            });
+        });
 
         resultElement.querySelector('button').addEventListener('click', tryAgain);
 
-    })
+    });
     //Function to handle the game start
     function gameStart () {
         calculateWinner(userchoice, computerChoice);
