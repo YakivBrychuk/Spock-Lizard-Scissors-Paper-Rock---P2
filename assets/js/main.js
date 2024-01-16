@@ -152,7 +152,7 @@ function game() {
     //function to retrieve the score from local storage
     function retrieveScoreFromLocalStorage() {
         const score = +window.localStorage.getItem('gameScore') || 0;
-        currentScore = score;
+        currentScore = 0;
         }
     
     //function to try again
