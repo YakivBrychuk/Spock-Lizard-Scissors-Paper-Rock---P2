@@ -57,7 +57,7 @@ function game() {
     
         // Create the img element
         let imgElement = document.createElement('img');
-        imgElement.src = `/assets/images/${choice}-svgrepo-com.svg`;
+        imgElement.src = `assets/images/${choice}-svgrepo-com.svg`;
         imgElement.alt = choice;
     
         // Append the img to the gameCardDiv
