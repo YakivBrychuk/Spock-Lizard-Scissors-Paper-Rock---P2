@@ -24,6 +24,7 @@ Designed for both adults and children, this game is an engaging way to understan
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
 * [Lighthouse Report](#lighthouse-report)
+* [Bugs and Fixes](#bugs-and-fixes)
 ### [Deployment and local development](#deployment-and-local-development-1)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
@@ -145,6 +146,10 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
  * [JSHint JS Validator](https://jshint.com/)
  * [Google's Lighthouse application](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+
+## Unfixed Bugs
+
+- footer is too high 
 
 ### Validation results
 
