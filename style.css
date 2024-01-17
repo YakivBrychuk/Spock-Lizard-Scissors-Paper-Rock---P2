@@ -139,7 +139,7 @@ button {
 
 .user-choice {
     background-size: 340px;
-    width: 100%;
+    width: 1000%;
     max-width: 700px;
     position: relative;
     height: 467px;
@@ -210,6 +210,7 @@ left: 180px;
 box-shadow: 0px 6px 0px 0px hsl(0, 0%, 10%);
 top: 130px;
 left: 115px;
+
 }
 
 
@@ -423,7 +424,7 @@ left: 115px;
         padding: 15px 65px;
     }
     .credits {
-        position: static;
+        position: absolute;
         width: 100%;
         left: 0;
         right: 0;
@@ -436,6 +437,10 @@ left: 115px;
         font-size: 12px; 
         z-index: 10;
         margin-top: 50px
+    }
+    .main-container {
+        align-items: center;
+        height: 100%;
     }
 }
 
@@ -485,7 +490,7 @@ left: 115px;
     }
     .main-container {
         align-items: center;
-        height: 100%;
+        height: 100hv;
     }
 
     .user-choice {
@@ -543,6 +548,10 @@ left: 115px;
         width: 115px;
     }
 
+    .chosen-main {
+        position: relative;
+    }
+
     .chosen-main .game-cards img {
         width: 54px;
     }
@@ -557,6 +566,7 @@ left: 115px;
     .result .title {
         font-size: 57px;
         margin: 53px 0 19px;
+        height: 100%;
     }
 
     .result button {
@@ -644,7 +654,7 @@ left: 115px;
 @media only screen and (max-width: 1920px) {
 
     .credits {
-        position: static;
+        position: absolute;
         width: 100%;
         left: 0;
         right: 0;
@@ -775,10 +785,6 @@ left: 115px;
         height: 145px;
         width: 150px;
     }
-
-    .chosen-main {
-        position: relative;
-    }
     
     .chosen-main .game-cards::before {
         height: 115px;
@@ -836,6 +842,7 @@ left: 115px;
 
     .chosen-main {
         padding: 0 5px;
+        position: relative;
     }
 
     .chosen-main p {
