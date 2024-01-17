@@ -61,17 +61,17 @@ Both new and returning users share identical objectives:
     * Score ounter will reflect eighter user won or lost against computer
     * Try Again button leads to home page so user can chose again game card/animated icon
 
-![Home](assets\images\Readme-Img\home.png)
+![Home](/assets/images/Readme-Img/home.png)
 
 * Game cards/Animated icons
     * 5 Game Cards of : Rock, Paper, Scissors, Lizard, Spock
 
-![Game Cards](assets\images\Readme-Img\game-cards.png)
+![Game Cards](/assets/images/Readme-Img/game-cards.png)
 
 * Rules button
     * By clicking will show modal screen of rules
 
-![Rules button](assets\images\Readme-Img\rules-button.png)
+![Rules button](/assets/images/Readme-Img/rules-button.png)
 
 * Rules image:
 
