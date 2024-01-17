@@ -101,6 +101,8 @@ Both new and returning users share identical objectives:
 * Pop up modal screen to input User Name
 
 ## Design
+* Initial flow chart of game logic:
+        * ![Flow chart](/assets/images/Readme-Img/flow-chart.png)
 
  * Colour Scheme
     * Primary colors used on the website: ![Color Scheme](/assets/images/Readme-Img/colors.png)
@@ -220,19 +222,21 @@ By forking the repository, we make a copy of the original repository on our GitH
 ## Credits
 
 ### Code
- * 
+ * The Rock Paper Scissors Code Tutorial by [freeCodeCamp (template)](https://www.youtube.com/watch?v=jaVNP3nIAv0)
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+ * [Modals](https://www.w3schools.com/howto/howto_css_modals.asp).
+ * [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 
 ### Content
 
- * All content was written by the developer.
  * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
 
 ### Media 
-
+ * [Colour Scheme](https://coolors.co/686868-c2aff0-9191e9-457eac-2d5d7b)
  * [Game Cards: Rock, Paper, Scissors, Lizard, Spock](www.svgrepo.com)
  * [Rules Image from wikipedia](https://en.wikipedia.org/wiki/File:Rock_paper_scissors_lizard_spock.png#/media/File:Rock_Paper_Scissors_Lizard_Spock_en.svg) free stock photos, royalty free images.
  * [Pixlr](https://pixlr.com/) Resizing images.
+ * [Layout of Header idea](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH).
 
 ---
 
