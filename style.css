@@ -27,6 +27,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 /* responsive images */
 img {
     max-width: 50%;
@@ -143,6 +144,7 @@ button {
     max-width: 700px;
     position: relative;
     height: 467px;
+    margin-bottom: 100px;
     }
 
 .game-cards {
@@ -221,6 +223,7 @@ left: 115px;
     width: 100%;
     text-align: center;
     padding: 30px 10px;
+    margin-bottom: 100px;
 }
 
 .chosen-main p {
@@ -368,7 +371,7 @@ left: 115px;
 /* credits */
 
 .credits {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     right: 0;
