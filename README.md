@@ -227,11 +227,12 @@ By forking the repository, we make a copy of the original repository on our GitH
 ## Credits
 
 ### Code
- * The Rock Paper Scissors Code Tutorial by [freeCodeCamp (template)](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+ * General programming concepts and troubleshooting guided by discussions and solutions on [Stack Overflow](https://stackoverflow.com).
+ * The Rock Paper Scissors Code Tutorial by [freeCodeCamp (Tutorial)](https://www.youtube.com/watch?v=jaVNP3nIAv0)
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
  * [Modals](https://www.w3schools.com/howto/howto_css_modals.asp).
  * [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
-
+ * Concepts and JavaScript implementation techniques adapted from  [HackerNoon's tutorial (Tutorial)](https://hackernoon.com/how-to-create-rock-paper-scissors-spock-lizard-in-javascript-991k36hy)
 ### Content
 
  * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
@@ -247,6 +248,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 ## Acknowledgements
 
- * My mentor Mitko Bachvarov provided helpful feedback and a links.
+ * My mentor [Mitko Bachvarov](https://www.linkedin.com/in/mitko-bachvarov-40b50776/) who provided helpful feedback and learning links, challenged me to go beyond and above by creating a more complex version of the classic Rock, Paper, Scissors.
  * Slack community for encouragement and information.
  * Code Institute Hackathons 
