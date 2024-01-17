@@ -165,7 +165,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>W3C CSS Validator
 </summary>
 
-![Gallery validation result](/assets/images/Readme-Img/W3C CSS Validator.png)
+(/assets/images/Readme-Img/W3C CSS Validator.png)
 </details>
 <details>
 <summary>JSHint JS Validator
