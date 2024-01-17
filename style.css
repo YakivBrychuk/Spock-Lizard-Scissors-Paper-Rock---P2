@@ -304,7 +304,7 @@ left: 115px;
     transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     text-transform: uppercase;
     font-size: 17px;
-    font-weight: bold; /
+    font-weight: bold;
 }
 
 .rules-btn:hover {
@@ -381,6 +381,7 @@ left: 115px;
     font-size: 12px; 
     z-index: 10;
     margin-top: 50px;
+    
 }
 
 .credits a {
@@ -391,4 +392,231 @@ left: 115px;
 
 .credits a:hover {
     text-decoration: underline;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1366px) {
+
+    .chosen-main .game-cards {
+        height: 200px;
+        width: 200px;
+        
+    }
+
+    .chosen-main .game-cards::before {
+        height: 150px;
+        width: 150px;
+    }
+
+    .chosen-main .game-cards img {
+        width: 70px;
+    }
+
+    .result .title {
+        font-size: 55px;
+    }
+
+    .result button {
+        padding: 15px 65px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 30px 10px 5px;
+    }
+
+    .title-block {
+        border-radius: 6px;
+        padding: 12px 12px 12px 12px;
+        margin: 0 0 90px;
+        
+    }
+    
+    .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 17px 22px 16px 31px;
+        margin: 0 0 0px;
+        width: 52%;  
+        max-width: 375px; 
+    } 
+
+    .score {
+        width: 79px;
+        height: 73px;
+        padding: 10px 0 0;
+    }
+
+    .score-number {
+        font-size: 39px;
+    }
+
+    .score-name {
+        font-size: 11px;
+    }
+
+    .title-block ul {
+        font-size: 13px;
+        line-height: 0.9;
+        margin: 11px 0 0;
+    }
+
+    .user-choice {
+        height: 308px;
+        background-size: 220px;
+        max-width: 375px;
+    }
+
+    .user-choice .game-cards {
+        height: 100px;
+        width: 100px;
+    }
+
+    .user-choice .game-cards::before {
+        height: 76px;
+        width: 76px;
+    }
+
+    .user-choice .game-cards img {
+        width: 36px;
+    }
+
+    .game-cards.rock {
+        top: 0;
+        left: 140px;
+    }
+
+    .game-cards.paper {
+        top: 80px;
+        right: 15px;
+    }
+
+    .game-cards.scissors {
+        bottom: 4px;
+        right: 52px;
+    }
+
+    .game-cards.lizard {
+        bottom: 0;
+        left: 55px;
+    }
+
+    .game-cards.spock {
+        top: 86px;
+        left: 20px;
+    }
+
+    .chosen-main .game-cards {
+        height: 145px;
+        width: 150px;
+    }
+
+    .chosen-main .game-cards::before {
+        height: 115px;
+        width: 115px;
+    }
+
+    .chosen-main .game-cards img {
+        width: 54px;
+    }
+
+    .result {
+        position: absolute;
+        top: 370px;
+        left: 0;
+        right: 0;
+    }
+
+    .result .title {
+        font-size: 57px;
+        margin: 53px 0 19px;
+    }
+
+    .result button {
+        padding: 15px 65px 13px;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .rules-btn {
+        position: absolute;
+        height: 40px;
+        right: inherit;
+        top: 600px;
+        z-index: 2;
+        background-repeat: repeat;
+        border: 1px solid #34c759;
+        padding: 5px 25px; 
+        border-radius: 25px; 
+        cursor: pointer;
+        color: white; 
+        background: linear-gradient(45deg, #ff2d55, #5856d6); 
+        transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        
+    }
+
+    .rules-btn:hover {
+        transform: scale(1.05);
+        background-color: #ff9500;
+        background-position: right bottom;
+        border-color: #ff3b30;
+    }
+
+    .chosen-main {
+        padding: 0 5px;
+    }
+
+    .chosen-main p {
+        font-size: 17px;
+        line-height: 1;
+        margin: 0 0 11px;
+    }
+
+    .modal {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        flex-flow: column;
+        align-items: center;
+        max-width: inherit;
+    }
+
+    .modal.modal.active {
+        display: flex;
+    }
+
+    .close-img {
+        top: 10px;
+    }
+
+    .modal .rules-title {
+        font-size: 30px;
+    }
+
+    .credits {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 0 0;
+        border-top: solid 2px black; 
+        font-size: 12px; 
+        z-index: 10;
+        margin-top: 50px;
+
+
+}
 }
