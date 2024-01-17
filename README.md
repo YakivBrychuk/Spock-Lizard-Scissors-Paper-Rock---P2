@@ -6,7 +6,7 @@ This game features a series of five rounds pitting the player against the comput
 
 Designed for both adults and children, this game is an engaging way to understand RPSLS rules. It presents a more intricate alternative to the classic game, providing fun and interactive play among participants.
 
-![Am I Responsive](assets\images\Readme-Img\am-i-responsive.png)
+![Am I Responsive](/assets\images\Readme-Img\am-i-responsive.png)
 
 [View Game live project here](https://yakivbrychuk.github.io/P2/)
 - - -
