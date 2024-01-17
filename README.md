@@ -159,19 +159,19 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Nu Html Checker
 </summary>
 
-![Home Page validation result](/assets/images/Readme-Img/Nu Html Checker.png)
+![Validation result](/assets/images/Readme-Img/Nu%20Html%20Checker.png)
 </details>
 <details>
 <summary>W3C CSS Validator
 </summary>
 
-(/assets/images/Readme-Img/W3C CSS Validator.png)
+![validation result](/assets/images/Readme-Img/W3C%20CSS%20Validator.png)
 </details>
 <details>
 <summary>JSHint JS Validator
 </summary>
 
-![Sign Up page validation result](/assets/images/Readme-Img/JSHint.png)
+![Validation result](/assets/images/Readme-Img/JSHint.png)
 </details>
 
 ### Manual Testing
