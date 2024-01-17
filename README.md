@@ -149,7 +149,9 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ## Unfixed Bugs
 
-- footer is too high 
+* Fixed bug in JS function related to counting score, first win or lose woud ad +5 or -5 to score, found errir by setting starting count by 0
+* Numerous bugs fixed in process of achieving responsivennes  
+* Upon publishing the site with GitHub it was clear that relative pathways were not working and caused a problem with loading the images on the website. This was easily fixed by   updating all the file pathways to absolute.
 
 ### Validation results
 
@@ -181,8 +183,6 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Dev Tools was used to test how the site looks on various screen sizes.
 
 ### Lighthouse Report
-
-#### Mobile analysis
 <details>
 <summary>Google's Lighthouse application
 </summary>
