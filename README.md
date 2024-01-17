@@ -75,24 +75,24 @@ Both new and returning users share identical objectives:
 
 * Rules image:
 
-![Rules Image](assets\images\rules.png)
+![Rules Image](/assets/images/rules.png)
 
 * Score Counter:
     * The score is adjusted based on the outcome of each game round. If the user loses, the score decreases. 
     * Conversely, if the user wins against the computer, the score increases.
 
-![Score Counter](assets\images\Readme-Img\score.png)
+![Score Counter](/assets/images/Readme-Img/score.png)
 
 * Result w/ Try Again button 
     * By clicking Try Again button that leads to home page in order to play again with same score
 
-![Result](assets\images\Readme-Img\result.png)
+![Result](/assets/images/Readme-Img/result.png)
 
 * Footer
     * Links to the Webpage of Code Institute will open in a new tab to allow easy navigation for the user.
     * Links to the users Github & Linkeding Profile as it gives them an easy contact option via social media.
 
-![Footer](assets\images\Readme-Img\footer.png)
+![Footer](/assets/images/Readme-Img/footer.png)
 
 ## Features Left to Implement
 
@@ -103,7 +103,7 @@ Both new and returning users share identical objectives:
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](assets\images\Readme-Img\colors.png)
+    * Primary colors used on the website: ![Color Scheme](/assets/images/Readme-Img/colors.png)
 
  * Typography
     * 'Roboto' font is main font used throughout the site with sans-serif as its fallback font in case Roboto doesn't import for some reasson.
@@ -150,19 +150,19 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Nu Html Checker
 </summary>
 
-![Home Page validation result](assets\images\Readme-Img\Nu Html Checker.png)
+![Home Page validation result](/assets/images/Readme-Img/Nu Html Checker.png)
 </details>
 <details>
 <summary>W3C CSS Validator
 </summary>
 
-![Gallery validation result](assets\images\Readme-Img\W3C CSS Validator.png)
+![Gallery validation result](/assets/images/Readme-Img/W3C CSS Validator.png)
 </details>
 <details>
 <summary>JSHint JS Validator
 </summary>
 
-![Sign Up page validation result](assets\images\Readme-Img\JSHint.png)
+![Sign Up page validation result](/assets/images/Readme-Img/JSHint.png)
 </details>
 
 ### Manual Testing
@@ -180,7 +180,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Google's Lighthouse application
 </summary>
 
-![Application Received validation result](assets\images\Readme-Img\lighthouse.png)
+![Application Received validation result](/assets/images/Readme-Img/lighthouse.png)
 </details>
 
 ---
