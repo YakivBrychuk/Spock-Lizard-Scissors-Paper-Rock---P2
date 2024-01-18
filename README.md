@@ -8,7 +8,7 @@ Designed for both adults and children, this game is an engaging way to understan
 
 ![Am I Responsive](/assets/images/Readme-Img/am-i-responsive.png)
 
-[View Game live project here]([https://yakivbrychuk.github.io/P2/](https://yakivbrychuk.github.io/Spock-Lizard-Scissors-Paper-Rock-P2/))
+[View Game live project here]((https://yakivbrychuk.github.io/Spock-Lizard-Scissors-Paper-Rock-P2/))
 - - -
 ## Table of Contents
 
